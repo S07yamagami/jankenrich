@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    font-size: 32px;
+    background: rgb(251, 224, 224);
+}
+header{
+    background-color: #fff;
+    text-align: center;
+    background: rgb(248, 200, 182);
+}
+main{
+    border-bottom:1px solid #f0efef;
+
+}
+footer{
+    background-color: #fff;
+    text-align: center;
+    background: rgb(248, 200, 182);
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:100px;
+
+}
+ul{
+    font-size: 100px
+    border-top: 1px solid #f4f0f0;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+
+.button {
+  color: #f1e6e6;
+  background-color: #fff;
+}
+.button:hover {
+  color: #fff;
+  background-color: #ede5e5;
+}
+}
+li{
+    list-style-type:none;
+    border: 1px solid #ede2e2;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
+.button {
+    color: #e3c3c3;
+    background-color: #fff;
+    text-align: center;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #000;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    50% {
+        transform: translateX(50%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+h2 {
+    display: inline-block;
+    animation: slide 30s ease-in-out infinite;
+    font-size: 30px
+}
